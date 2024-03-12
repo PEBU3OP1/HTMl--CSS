@@ -7,6 +7,13 @@ a {
   font-size: 16px;
   line-height: 20px;
 }
+.reference:hover {
+  color: violet;
+}
+
+.reference:active {
+  color: tomato;
+}
 
 .h1_header {
   color: #222222;
