@@ -24,13 +24,13 @@ html {
   flex-direction: column;
   align-items: center;
 
-  height: 500px;
- 
-
+  height: 700px;
+}
 .menu {
   display: flex;
   align-items: center;
   gap: 40px;
+  font-size: 20px;
 }
 
 .middle {
@@ -40,20 +40,43 @@ html {
   margin-top: 350px;
 }
 
-button{
-    width: 191px;
-    height: 60px;
-    gap: 12px;
-    border: 1;
-    border-radius: 8px;
-    cursor: pointer;
-    font-size: 16px;
-    background: #00B43D;
-    color: white;
-
+button {
+  width: 191px;
+  height: 60px;
+  gap: 12px;
+  border: 1;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  background: #00b43d;
+  color: white;
+  margin-top: 100px;
 }
-li{
-    width: 98px;
-    height: 36px;
-    top: 73px;
-    left: 1187px;}
+li {
+  width: 98px;
+  height: 36px;
+  top: 73px;
+  left: 1187px;
+}
+
+.travel_time {
+  font-size: 60px;
+  font-style: italic;
+  font-weight: 700;
+  color: white;
+  border: 1;
+  align-self: center;
+}
+
+.statement {
+  display: flex;
+  font-size: 24px;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 749px;
+  height: 72px;
+  top: 344px;
+  left: 326px;
+  text-align: center;
+  flex-direction: column-reverse;
+}
